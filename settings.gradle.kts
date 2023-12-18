@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        mavenLocal()
     }
 }
 dependencyResolutionManagement {
@@ -15,3 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "QuadrantKspCompilesSample"
 include(":app")
+include(":module1")
+include(":module2")
